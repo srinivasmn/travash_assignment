@@ -20,7 +20,7 @@ clear
 case $answer in
     1)    echo Please enter the new Password
           read Passwd
-          echo -e "$Passwd\n$Passwd" | (sudo passwd $USER) # May trow
+          echo -e "$Passwd\n$Passwd" | (sudo passwd $USER) 
 	  echo "press a key. . ." ; read ;;
 	
     2)    echo Disk Space Details\n
